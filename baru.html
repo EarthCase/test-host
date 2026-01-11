@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Nilai Cafe Services</title>
+<style>
+body {
+margin: 0;
+font-family: 'Poppins', Arial, Helvetica, sans-serif;
+
+
+background-image: url("image/back1.jpg.jpg");
+
+}
+
+
+/* Navigation Bar */
+.navbar {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 15px 30px;
+background: rgba(44, 44, 44, 0.85);
+backdrop-filter: blur(6px);
+color: white;
+position: sticky;
+top: 0;
+z-index: 1000;
+}
+
+
+.navbar h1 {
+margin: 0;
+font-size: 22px;
+}
+.navbar ul {
+list-style: none;
+display: flex;
+gap: 20px;
+margin: 0;
+padding: 0;
+
+}
+
+
+.navbar ul li a {
+color: white;
+text-decoration: none;
+font-size: 16px;
+}
+
+
+.navbar ul li a:hover {
+text-decoration: underline;
+}
+
+
+/* Header */
+.header {
+text-align: center;
+padding: 70px 20px;
+
+
+background : linear-gradient(135deg, #3C1F0C);
+
+color: white;
+
+}
+.header h2 {
+margin-bottom: 10px;
+}
+
+
+/* Cafe Listing */
+.container {
+padding: 40px;
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+gap: 25px;
+}
+.card {
+background: rgba(255, 255, 255, 0.85);
+background-color: #987554;
+border-radius: 16px;
+padding: 25px;
+box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+transform: translateY(-8px);
+box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+}
+
+
+.card h3 {
+margin-top: 0;
+font-family: 'Georgia', serif;
+
+}
+
+
+.card p {
+font-size: 14px;
+color: white;
+}
+.card button {
+margin-top: 10px;
+padding: 8px 12px;
+border: none;
+background-color: #2c2c2c;
+color: white;
+border-radius: 4px;
+cursor: pointer;
+}
+
+
+.card button:hover {
+background-color: #444;
+}
+/* Footer */
+footer {
+text-align: center;
+padding: 20px;
+background: linear-gradient(135deg, #2c2c2c, #3a3a3a);
+color: white;
+margin-top: 40px;
+}
+</style>
+
+</head>
+<body>
+	<!-- Navigation Bar -->
+<nav class="navbar">
+<h1>IdeaNest Nilai</h1>
+<ul>
+<li><a href="baru.html">Home</a></li>
+<li><a href="footer.html">Cafe Category</a></li>
+<li><a href="baru5.html">Contact</a></li>
+</ul>
+</nav>
+
+
+<!-- Header Section -->
+<section class="header">
+<h2> Suggestions for Best Cafes in Nilai</h2>
+<p>Discover the best cafes around Nilai with great food and ambience.</p>
+</section>
+
+
+<!-- Cafe Listing Section -->
+<section id="cafes" class="container">
+<div class="card">
+<h3>Hulu Cafe</h3>
+<p>Cozy cafe perfect for study and meetings.</p>
+<p>Specialty coffee, desserts, and free Wi-Fi.</p>
+<p><strong>Location:</strong> Bandar Baru Nilai</p>
+ <button onclick="location.href='baru2.html'">View Details</button>
+
+</div>
+<div class="card">
+<h3>ChugNsavour Cafe</h3>
+<p>Specialty coffee, desserts, and free Wi-Fi.</p>
+<p><strong>Location:</strong> Nilai Square</p>
+<button onclick="location.href='baru2(1).html'">View Details</button>
+</div>
+
+
+<div class="card">
+<h3>Hill&Chill Coffee</h3>
+<p>Modern cafe with brunch and premium coffee.</p>
+<p><strong>Location:</strong> Kampung Bukit Kadir</p>
+<button onclick="location.href='baru2(2).html'">View Details</button>
+</div>
+</section>
+<!-- Footer -->
+<footer>
+<p>&copy; 2025 IdeaNest Nilai. All rights reserved.</p>
+</footer>
+
+
+</body>
+</html>
